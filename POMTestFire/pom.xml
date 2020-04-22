@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.test.webDemo</groupId>
-  <artifactId>webdemo</artifactId>
+  <artifactId>POMTestFire</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>webdemo Maven Webapp</name>
+  <name>POMTestFire Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
     <dependency>
@@ -33,7 +33,7 @@
     </dependency>   
   </dependencies>
   <build>
-    <finalName>webdemo</finalName>
+    <finalName>POMTestFire</finalName>
     <plugins>
     	<plugin>
 	  <groupId>org.eclipse.jetty</groupId>

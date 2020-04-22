@@ -25,7 +25,7 @@ public class BaiduCaseTest {
 
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.marionectte", "D:\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\driver\\chromedriver.exe");
 		driver =new ChromeDriver();
 		driver.get(url);	
 	}
